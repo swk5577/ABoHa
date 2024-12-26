@@ -1,0 +1,5 @@
+{
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/d5341069-a5d4-4376-bd6a-ea052de4bf19/resourceGroups/rg-Aboha/providers/Microsoft.Web/sites/appbeAboha",
+  "appService.deploySubpath": "."
+}

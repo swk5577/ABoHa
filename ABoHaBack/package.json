@@ -1,0 +1,30 @@
+{
+  "name": "aboha_ksy_11202024",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.18.0",
+    "apn": "^2.2.0",
+    "axios": "^1.7.8",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-azure-blob-storage": "^1.2.0",
+    "mysql2": "^3.9.7",
+    "pg": "^8.13.1",
+    "pm2": "^5.4.0",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  },
+  "description": ""
+}

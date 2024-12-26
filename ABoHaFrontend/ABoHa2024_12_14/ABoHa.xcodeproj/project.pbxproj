@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90AB850D2D013E53005516F7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 90AB850C2D013E53005516F7 /* Alamofire */; };
+		90AB85102D013E62005516F7 /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 90AB850F2D013E62005516F7 /* SVProgressHUD */; };
+		90D514F02D013EB00004F237 /* JHCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 90D514EF2D013EB00004F237 /* JHCalendar */; };
+		90D514F32D013F400004F237 /* JHCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 90D514F22D013F400004F237 /* JHCalendar */; };
+		9626C9732D052FA100C0CEBB /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 9626C9722D052FA100C0CEBB /* FSCalendar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90AB84BB2D013BBB005516F7 /* ABoHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABoHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		90AB84BD2D013BBB005516F7 /* ABoHa */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ABoHa;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90AB84B82D013BBB005516F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AB85102D013E62005516F7 /* SVProgressHUD in Frameworks */,
+				90D514F02D013EB00004F237 /* JHCalendar in Frameworks */,
+				90D514F32D013F400004F237 /* JHCalendar in Frameworks */,
+				9626C9732D052FA100C0CEBB /* FSCalendar in Frameworks */,
+				90AB850D2D013E53005516F7 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AB84B22D013BBB005516F7 = {
+			isa = PBXGroup;
+			children = (
+				90AB84BD2D013BBB005516F7 /* ABoHa */,
+				90AB84BC2D013BBB005516F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90AB84BC2D013BBB005516F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90AB84BB2D013BBB005516F7 /* ABoHa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90AB84BA2D013BBB005516F7 /* ABoHa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AB84C92D013BBC005516F7 /* Build configuration list for PBXNativeTarget "ABoHa" */;
+			buildPhases = (
+				90AB84B72D013BBB005516F7 /* Sources */,
+				90AB84B82D013BBB005516F7 /* Frameworks */,
+				90AB84B92D013BBB005516F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				90AB84BD2D013BBB005516F7 /* ABoHa */,
+			);
+			name = ABoHa;
+			packageProductDependencies = (
+				90AB850C2D013E53005516F7 /* Alamofire */,
+				90AB850F2D013E62005516F7 /* SVProgressHUD */,
+				90D514EF2D013EB00004F237 /* JHCalendar */,
+				90D514F22D013F400004F237 /* JHCalendar */,
+				9626C9722D052FA100C0CEBB /* FSCalendar */,
+			);
+			productName = ABoHa2024_12_5;
+			productReference = 90AB84BB2D013BBB005516F7 /* ABoHa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AB84B32D013BBB005516F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					90AB84BA2D013BBB005516F7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 90AB84B62D013BBB005516F7 /* Build configuration list for PBXProject "ABoHa" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90AB84B22D013BBB005516F7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				90AB850B2D013E53005516F7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				90AB850E2D013E62005516F7 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+				90D514F12D013F400004F237 /* XCLocalSwiftPackageReference "../JHCalendar-main" */,
+				9626C9712D052FA100C0CEBB /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 90AB84BC2D013BBB005516F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90AB84BA2D013BBB005516F7 /* ABoHa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90AB84B92D013BBB005516F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AB84B72D013BBB005516F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90AB84C72D013BBC005516F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90AB84C82D013BBC005516F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90AB84CA2D013BBC005516F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ABoHa/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YXQMG6LKS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ABoHa2024-12-5-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치정보를 항상 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "앱사용중에만 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "이 앱은 음성 인식을 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "이 앱은 음성 인식을 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.nambuwomanup.YL.ABoHa2024-12-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90AB84CB2D013BBC005516F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ABoHa/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YXQMG6LKS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ABoHa2024-12-5-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치정보를 항상 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "앱사용중에만 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "이 앱은 음성 인식을 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "이 앱은 음성 인식을 위해 마이크를 사용합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.nambuwomanup.YL.ABoHa2024-12-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AB84B62D013BBB005516F7 /* Build configuration list for PBXProject "ABoHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AB84C72D013BBC005516F7 /* Debug */,
+				90AB84C82D013BBC005516F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AB84C92D013BBC005516F7 /* Build configuration list for PBXNativeTarget "ABoHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AB84CA2D013BBC005516F7 /* Debug */,
+				90AB84CB2D013BBC005516F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		90D514F12D013F400004F237 /* XCLocalSwiftPackageReference "../JHCalendar-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../JHCalendar-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90AB850B2D013E53005516F7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		90AB850E2D013E62005516F7 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+		9626C9712D052FA100C0CEBB /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90AB850C2D013E53005516F7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90AB850B2D013E53005516F7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		90AB850F2D013E62005516F7 /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90AB850E2D013E62005516F7 /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+		90D514EF2D013EB00004F237 /* JHCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JHCalendar;
+		};
+		90D514F22D013F400004F237 /* JHCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JHCalendar;
+		};
+		9626C9722D052FA100C0CEBB /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9626C9712D052FA100C0CEBB /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 90AB84B32D013BBB005516F7 /* Project object */;
+}
